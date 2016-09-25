@@ -1,0 +1,10 @@
+version: '2'
+services:
+    app_2048:
+        build: .
+        ports:
+            - "80"
+        restart: unless-stopped
+
+stage34:
+    entry: app_2048
