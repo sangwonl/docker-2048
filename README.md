@@ -1,5 +1,3 @@
-TESTTEST
-
 # docker-2048
 
 simple is better
