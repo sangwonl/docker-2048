@@ -4,6 +4,14 @@ services:
         build: .
         ports:
             - "80"
+        links:
+            - redis
+        restart: unless-stopped
+
+    redis:
+        image: redis
+        expose:
+            - "6379"
         restart: unless-stopped
 
 stage34:
