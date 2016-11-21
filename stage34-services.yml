@@ -8,3 +8,4 @@ services:
 
 stage34:
     entry: app_2048
+
